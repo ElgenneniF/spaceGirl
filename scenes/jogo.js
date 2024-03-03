@@ -23,10 +23,10 @@ class Scene02 extends Phaser.Scene{
     
     preload(){
        //assets
-        this.load.image('bg', '../assets/bg.jpg');
-        this.load.image('plataforma', '../assets/plataforma.png')
-        this.load.spritesheet('madeline', '../assets/madeline.png', { frameWidth: 40, frameHeight: 48 });
-        this.load.spritesheet('estrela', '../assets/strelinha.png', { frameWidth: 336, frameHeight: 272})
+        this.load.image('bg', 'assets/bg.jpg');
+        this.load.image('plataforma', 'assets/plataforma.png')
+        this.load.spritesheet('madeline', 'assets/madeline.png', { frameWidth: 40, frameHeight: 48 });
+        this.load.spritesheet('estrela', 'assets/strelinha.png', { frameWidth: 336, frameHeight: 272})
     };
     create(){
         teclado = this.input.keyboard.createCursorKeys();
